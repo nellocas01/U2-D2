@@ -27,6 +27,9 @@ header {
   box-shadow: 0 3px 3px #444;
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
+  position: fixed;
+  top: 0;
+  position: sticky;
 }
 
 @media screen and (min-width: 800px) {
@@ -112,6 +115,8 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  position: absolute;
+  top: -21px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -187,6 +192,7 @@ h1 + p {
   border: 4px solid #00a0c6;
   outline: 4px solid #a02571;
   padding: 3px;
+  float: left;
 }
 ul,
 ol {
@@ -324,6 +330,43 @@ aside div p:last-child {
   margin-bottom: 0;
   font-size: 0.8em;
   text-align: right;
+}
+.arrow{
+  position: fixed;
+  bottom: 0;
+  right: -9px;
+  padding: 20px;
+  background-color:white;
+  opacity: 0.9;
+  border: 2px white;
+  box-shadow: inset 2px 2px 2px #dedede;
+  color: violet;
+}
+.calendar{
+  position: fixed;
+  top: 80px;
+  right: -9px;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.9;
+  border: 2px white;
+  box-shadow: inset 2px 2px 2px #dedede;
+  color: blue;
+}
+.social{
+  position: fixed;
+  top: 0px;
+  right: -9px;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.9;
+  border: 2px white;
+  box-shadow: inset 2px 2px 2px #dedede;
+  color: blue;
+}
+.fas-tag{
+  position: absolute;
+  right: 40px;
 }
 
 /* FOOTER */
